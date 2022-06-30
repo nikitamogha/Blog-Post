@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-image: url(bg-image.jpg);
+    text-align: center;
+    font-size: 3vw;
+    width: 80vw;
+    margin: 1vw auto 1vw auto;
+    padding: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    background-size: cover;
+
+}
+.container{
+
+    margin-left: 3vw;
+}
+.article{
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+h1,h2{
+    color: brown;
+    
+}
+h1{
+    font-size: 3vw;
+    margin: 1vw;
+
+}
+.paragraph{
+    margin: 1vw;
+    text-align: justify;
+    
+}
+h2{
+    font-size:2vw;
+    margin: 1vw;
+}
+.image{
+    height: 30vw;
+    width: 60vw;
+    margin: 2vw;
+}
+.other-post{
+   width: 20%;
+   display: inline-block;
+   float: right;
+   margin-left: 2vw;
+}
+.other-post img{
+    width:80%;
+    height: 15vw;
+}
+.other-post p{
+    font-size: 1vw;
+    color: brown;
+    font-weight: bold;
+}
+.other-post a{
+    text-decoration: none;
+}
+.blog-post{
+   margin-bottom: 1vw;
+}
+.clearfix{
+    content: "";  
+    clear: both;
+    display: table;
+}
+.footer-image{
+      height:10vw ;
+      float: left;
+      width:10vw;
+      margin: 2vw;
+      border-radius: 50%;
+      display: inline-block;
+}
+.footer-heading{
+    border-top: 2px solid black;
+    padding-top: 0.5vw;
+    margin: 3vw;
+    
+}
+.footer p{
+    display: inline-block;
+    width: 60%;
+    text-align: justify;
+    margin: 2vw;
+}
